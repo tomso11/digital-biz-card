@@ -14,9 +14,9 @@ const MainContent = () => {
                     </div>
             </div>
             <div className="main-content-info">
-                <h3>About</h3>
+                <h4>About</h4>
                 <p>I like to play around with silicon things</p>
-                <h3>Interests</h3>
+                <h4>Interests</h4>
                 <p>Video games and sweets</p>
             </div>
         </div>
