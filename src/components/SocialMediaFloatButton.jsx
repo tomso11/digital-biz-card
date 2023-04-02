@@ -1,10 +1,12 @@
 import React from 'react';
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
-export default function SocialMediaFloatButton() {
+const SocialMediaFloatButton = () => {
   return (
-    <MDBBtn size='lg' floating style={{ backgroundColor: '#55acee' }} href='#'>
-      <MDBIcon fab icon='twitter' />
+    <MDBBtn style={{ backgroundColor: '#55acee' }} href='#'>
+      <MDBIcon className='me-2' fab icon='twitter' /> Twitter
     </MDBBtn>
   );
 }
+
+export default SocialMediaFloatButton;

@@ -1,13 +1,11 @@
-import SocialMediaFloatButton from "./SocialMediaFloatButton"
-
 
 const Footer = () => {
     return(
         <div className="footer-socials">
-            <SocialMediaFloatButton/>
-            <SocialMediaFloatButton/>
-            <SocialMediaFloatButton/>
-            <SocialMediaFloatButton/>
+            <a className="social-media-float-btn" href="https://test.com">Resume</a>
+            <a className="social-media-float-btn" href="https://test.com">Resume</a>
+            <a className="social-media-float-btn" href="https://test.com">Resume</a>
+            <a className="social-media-float-btn" href="https://test.com">Resume</a>
         </div>
     )
 }

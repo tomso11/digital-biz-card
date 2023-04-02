@@ -9,10 +9,12 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="app">
-      <Header/>
-      <MainContent/>
-      <Footer/>
+    <div className = "app">
+      <div className="card-container">
+        <Header/>
+        <MainContent/>
+        <Footer/>
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
-import SocialMediaButton from "./SocialMediaButton"
+import SocialMediaButtonLinkedin from "./SocialMediaButtonLinkedin"
+import SocialMediaButtonEmail from "./SocialMediaButtonEmail"
 
 const MainContent = () => {
     return(
@@ -7,9 +8,10 @@ const MainContent = () => {
                     <h1>Tom So</h1>
                     <h3>Tinkerer</h3>
                     <a href="https://tom.so/">tom.so</a>
-                    <br />
-                    <SocialMediaButton/>
-                    <SocialMediaButton/>
+                    <div className="main-header-buttons">
+                        <SocialMediaButtonEmail/>
+                        <SocialMediaButtonLinkedin/>
+                    </div>
             </div>
             <div className="main-content-info">
                 <h3>About</h3>
