@@ -170,3 +170,19 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.facebook{
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.github {
+  background-color: #333333;
+}
+
+.instagram {
+  background-color: #ac2bac;
+}
